@@ -8,11 +8,13 @@
 
 body { 
    position: relative;
-   border: 2px solid black;
+
    width: 45rem;
-   margin: 30px auto; 
-   padding-bottom: 3rem;
-   background-color: rgb(227, 219, 219);
+   margin: auto; 
+   padding-bottom: 2rem;
+   border-top: 5rem;
+   
+   
    
 }
 
@@ -45,6 +47,7 @@ h1{
     float: right;
     margin-right: 60px;
     margin-top: -80px;
+
 }
 
 h2{
@@ -82,4 +85,11 @@ ul li {
  
  p1 {
     padding-left: 40px;
+ }
+
+ .bg {
+    background-color: rgb(237, 206, 175);
+    position: absolute;
+    border: 3px solid black;
+    padding-bottom: 1rem;
  }
